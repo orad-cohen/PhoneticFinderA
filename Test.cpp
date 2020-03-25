@@ -159,3 +159,4 @@ TEST_CASE("Test replacement of i and y")
     CHECK(find(text, "hayleI") == string("hailey"));
     CHECK(find(text, "haYley") == string("hailey"));
     CHECK(find(text, "haYleY") == string("hailey"));
+}
